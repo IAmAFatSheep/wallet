@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d78f7ed-6b9c-4502-9cbe-514a028fc452" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/btcd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/CHANGES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/addrmanager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/addrmanager_internal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/addrmanager_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/cov_report.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/internal_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/knownaddress.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/knownaddress_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/network.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/network_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/addrmgr/test_coverage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/accept.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/blockindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chain_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chainio.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chainio_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chainview.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/chainview_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/checkpoints.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/compress.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/compress_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/difficulty.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/difficulty_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/error_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/fullblocks_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/fullblocktests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/fullblocktests/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/fullblocktests/generate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/fullblocktests/params.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/addrindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/addrindex_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/blocklogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/cfindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/indexers/txindex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/mediantime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/mediantime_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/merkle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/merkle_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/notifications.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/notifications_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/process.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/scriptval.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/scriptval_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/277647.dat.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/277647.utxostore.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/blk_0_to_4.dat.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/blk_3A.dat.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/blk_4A.dat.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/blk_5A.dat.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/testdata/reorgtest.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/thresholdstate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/thresholdstate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/timesorter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/timesorter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/upgrade.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/upgrade_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/utxoviewpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/validate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/validate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/versionbits.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/blockchain/weight.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/btcec.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/btcec_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/ciphering.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/ciphering_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/field_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/genprecomps.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/gensecp256k1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/precompute.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/privkey.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/privkey_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/pubkey.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/pubkey_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/secp256k1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/signature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcec/signature_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcdextcmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcdextcmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcdextresults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcdextresults_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcwalletextcmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/btcwalletextcmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrcmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrcmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrresults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrresults_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwscmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwscmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwsntfns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwsntfns_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwsresults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/chainsvrwsresults_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/cmdinfo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/cmdinfo_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/cmdparse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/cmdparse_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/error_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/export_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/help.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/help_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/helpers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/helpers_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/jsonrpc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/jsonrpc_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/jsonrpcerr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/register.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/register_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrcmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrcmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrresults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrwscmds.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrwscmds_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrwsntfns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/btcjson/walletsvrwsntfns_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/hash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/hash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/hashfuncs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/chainhash/hashfuncs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/genesis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/genesis_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/params.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/params_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/chaincfg/register_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/addblock/addblock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/addblock/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/addblock/import.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/btcctl/btcctl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/btcctl/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/btcctl/httpclient.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/btcctl/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/findcheckpoint/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/findcheckpoint/findcheckpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/cmd/gencerts/gencerts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/config_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/connmanager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/connmanager_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/dynamicbanscore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/dynamicbanscore_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/seed.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/connmgr/tor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/fetchblock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/fetchblockregion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/globalconfig.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/insecureimport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/loadheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/cmd/dbtool/signal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/driver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/driver_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/error_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/export_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/blockio.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/dbcache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/driver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/driver_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/export_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/interface_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/ldbtreapiter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/mockfile_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/reconcile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/ffldb/whitebox_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/immutable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/immutable_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/mutable.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/mutable_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/treapiter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/internal/treap/treapiter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/database/testdata/blocks1-256.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/code_contribution_guidelines.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/configure_peer_server_listen_interfaces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/configure_rpc_server_listen_interfaces.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/configuring_tor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/default_ports.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/json_rpc_api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/docs/using_bootstrap_dat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/goclean.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/bip0009_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/csv_fork_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpcserver_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/blockgen.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/btcd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/memwallet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/rpc_harness.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/rpc_harness_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/integration/rpctest/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/limits/limits_plan9.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/limits/limits_unix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/limits/limits_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/estimatefee.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/estimatefee_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/mempool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/mempool_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/policy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mempool/policy_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/cpuminer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/cpuminer/cpuminer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/cpuminer/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/mining.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/mining_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/policy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/mining/policy_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/blocklogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/netsync/manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/params.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/export_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/mruinvmap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/mruinvmap_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/mrunoncemap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/mrunoncemap_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/peer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/peer/peer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/release/GIT-GPG-KEY-conformal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/release/notes.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/release/prep_release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcadapters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/chain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/bitcoincorehttp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/bitcoincorehttp/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/btcdwebsockets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/btcdwebsockets/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/btcwalletwebsockets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/examples/btcwalletwebsockets/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/extensions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/infrastructure.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/mining.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/net.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/notify.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/rawrequest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/rawtransactions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcclient/wallet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcserver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcserverhelp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcserverhelp_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/rpcwebsocket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/sample-btcd.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/service_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/signal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/signalsigterm.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/engine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/engine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/error_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/error_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/example_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/hashcache.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/hashcache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/hashcache_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/hashcache_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/opcode.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/opcode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/opcode_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/opcode_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/pkscript.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/pkscript.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/pkscript_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/pkscript_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/reference_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/reference_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/script.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/script.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/script_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/script_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/scriptbuilder.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/scriptbuilder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/scriptbuilder_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/scriptbuilder_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/scriptnum.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/scriptnum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/scriptnum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/scriptnum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/sigcache.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/sigcache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/sigcache_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/sigcache_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/sign.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/sign.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/sign_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/sign_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/stack.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/stack_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/stack_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/standard.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/standard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/txscript/standard_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcd/txscript/standard_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/upgrade.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/upnp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/blockheader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/blockheader_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/common.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/common_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/fakemessage_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/fixedIO_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/invvect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/invvect_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/message.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/message_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgaddr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgaddr_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgalert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgalert_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgblock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgblock_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgcfcheckpt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgcfheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgcfilter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfeefilter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfeefilter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilteradd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilteradd_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilterclear.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilterclear_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilterload.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgfilterload_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetaddr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetaddr_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetblocks.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetblocks_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetcfcheckpt.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetcfheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetcfilters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetdata.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetdata_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msggetheaders_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgheaders_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msginv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msginv_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgmempool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgmempool_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgmerkleblock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgmerkleblock_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgnotfound.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgnotfound_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgping_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgpong.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgpong_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgreject.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgreject_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgsendheaders.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgsendheaders_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgtx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgtx_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgverack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgverack_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgversion.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/msgversion_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/netaddress.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/netaddress_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/protocol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/protocol_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcd/wire/testdata/megatx.bin.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcutil/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcutil/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcutil/base58/base58check.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcutil/base58/base58check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcutil/hdkeychain/extendedkey.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcutil/hdkeychain/extendedkey.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcutil/wif.go" beforeDir="false" afterPath="$PROJECT_DIR$/btcutil/wif.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <folding>
+                <element signature="e#14#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/pkg/mod/github.com/tyler-smith/go-bip39@v1.0.0/bip39.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transaction/signBth.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/transaction/signBth_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding>
+                <element signature="e#21#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transaction/signEthTest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/wallet.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding>
+                <element signature="e#15#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/btcec/privkey.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transaction/signEth.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+              <folding>
+                <element signature="e#21#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/go/pkg/mod/github.com/ethereum/go-ethereum@v1.9.1/accounts/abi/bind/util.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/context/context.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NewKeyFromMasterKey</find>
+      <find>SignatureScript</find>
+      <find>SignRawTransaction</find>
+      <find>unknown address type</find>
+      <find>111</find>
+      <find>PubKeyHashAddrID</find>
+      <find>OP_EQUALVERIFY</find>
+      <find>ErrEqualVerify</find>
+      <find>opcodeEqualVerify</find>
+      <find>opcodeArray</find>
+      <find>TypeBitcoin</find>
+      <find>b58encode</find>
+      <find>0x00</find>
+      <find>type PrivateKey</find>
+      <find>B58checkencode</find>
+      <find>Mnemonic</find>
+      <find>generate private key fail</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/btcutil" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bip44Test.go" />
+        <option value="$USER_HOME$/go/src/github.com/tyler-smith/go-bip32/bip32.go" />
+        <option value="$PROJECT_DIR$/bip44.go" />
+        <option value="$PROJECT_DIR$/utils.go" />
+        <option value="$PROJECT_DIR$/wallet.go" />
+        <option value="$PROJECT_DIR$/transaction.go" />
+        <option value="$PROJECT_DIR$/bip44/bip44Test.go" />
+        <option value="$PROJECT_DIR$/transaction/transactionTest.go" />
+        <option value="$PROJECT_DIR$/test/testHook.go" />
+        <option value="$PROJECT_DIR$/test/testBtcRpc.go" />
+        <option value="$PROJECT_DIR$/test/testBtcTx.go" />
+        <option value="$PROJECT_DIR$/btcJsonRpc/rpcClient.go" />
+        <option value="$PROJECT_DIR$/btcutil/base58/base58check.go" />
+        <option value="$PROJECT_DIR$/btcJsonRpc/signTx.go" />
+        <option value="$PROJECT_DIR$/btcutil/address.go" />
+        <option value="$PROJECT_DIR$/btcd/a.go" />
+        <option value="$PROJECT_DIR$/btcd/txscript/standard.go" />
+        <option value="$PROJECT_DIR$/test/main.go" />
+        <option value="$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/base58/base58.go" />
+        <option value="$PROJECT_DIR$/test/test2.go" />
+        <option value="$PROJECT_DIR$/btcutil/wif.go" />
+        <option value="$PROJECT_DIR$/test/test.go" />
+        <option value="$PROJECT_DIR$/btcJsonRpc/main.go" />
+        <option value="$PROJECT_DIR$/utils/utils.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/model/wallet.go" />
+        <option value="$PROJECT_DIR$/transaction/signBth.go" />
+        <option value="$PROJECT_DIR$/transaction/signBth_test.go" />
+        <option value="$PROJECT_DIR$/transaction/signEth.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="80" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unitTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$/transaction" />
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/bip44" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bip39" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/main.go" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bip39" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build signBth.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bip39" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/transaction/signBth.go" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build standard.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bip39" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/btcd/txscript/standard.go" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bip39" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/test.go" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build signBth.go" />
+      <item itemvalue="Go Build.go build standard.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build test.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build signBth.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build standard.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="32" width="1920" height="999" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17681624" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25776756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33026466" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/go/src/github.com/tyler-smith/go-bip39/bip39.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4785">
+          <caret line="331" column="5" selection-start-line="331" selection-start-column="5" selection-end-line="331" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/blockcypher/gobcy@v1.3.1/gobcy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/blockcypher/gobcy@v1.3.1/hook.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testBtcRpc.go" />
+    <entry file="file://$PROJECT_DIR$/test/testHook.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/tyler-smith/go-bip32@v0.0.0-20170922074101-2c9cfd177564/bip32.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/blockcypher/gobcy@v1.3.1/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="235" column="4" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/blockcypher/gobcy@v1.3.1/address.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/blockcypher/gobcy@v1.3.1/tx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testBtcTx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/txscript/sign.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcJsonRpc/rpcClient.go" />
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/btcjson/walletsvrcmds.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/rpcclient/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="1428" column="21" selection-start-line="1428" selection-start-column="21" selection-end-line="1428" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/rpcclient/infrastructure.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/address.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcutil/base58/base58.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcutil/base58/base58check.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/chaincfg/params.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5730">
+          <caret line="391" column="20" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/base58/base58check.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcd/a.go" />
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/txscript/standard.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="421" column="5" selection-start-line="421" selection-start-column="5" selection-end-line="421" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/base58/alphabet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcd/txscript/standard.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6315">
+          <caret line="421" column="20" selection-start-line="421" selection-start-column="5" selection-end-line="421" selection-end-column="20" />
+          <folding>
+            <element signature="e#169#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcutil/address.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/wire/msgtx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="260" column="5" selection-start-line="260" selection-start-column="5" selection-end-line="260" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcd/txscript/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcd/txscript/opcode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1493" column="22" selection-start-line="1493" selection-start-column="5" selection-end-line="1493" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/txscript/engine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="441" column="18" selection-start-line="441" selection-start-column="18" selection-end-line="441" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bip44/bip44.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/wif.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcutil/wif.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcutil@v0.0.0-20190425235716-9e5f4b9a998d/base58/base58.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/crypto/ecdsa/ecdsa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcJsonRpc/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/rpcclient/rawtransactions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="296" column="5" selection-start-line="288" selection-start-column="4" selection-end-line="296" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btcJsonRpc/signTx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!block;n#CalculatorFee#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/btcsuite/btcd@v0.0.0-20190629003639-c26ffa870fd8/btcec/privkey.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/tyler-smith/go-bip39@v1.0.0/bip39.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding>
+            <element signature="e#15#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction/signEthTest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/ethereum/go-ethereum@v1.9.1/accounts/abi/bind/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/context/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#14#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction/signEth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#21#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction/signBth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction/signBth_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#21#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
